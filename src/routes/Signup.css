@@ -1,0 +1,92 @@
+.App {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+.App2 {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.App3 {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+.App4 {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+
+.App5 {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
+
+.first-input {
+  border-radius: 30px;
+  width: 500px;
+  height: 45px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.second-input {
+  border-radius: 30px;
+  width: 500px;
+  height: 45px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.input3 {
+  border-radius: 30px;
+  width: 500px;
+  height: 45px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.input4 {
+  border-radius: 30px;
+  width: 500px;
+  height: 45px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.input5 {
+  border-radius: 30px;
+  width: 500px;                                                                                                                               
+  height: 45px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.button {
+  position: absolute;
+  bottom: 28%;
+  left: 52%;
+  margin: 0;
+  padding: 0.5rem 1rem;
+
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+  width: auto;
+
+  border: none;
+  border-radius: 4px;
+}
+
+.button2 {
+}
