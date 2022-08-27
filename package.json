@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "history": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
@@ -42,7 +43,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://hyunhoyu.github.io/All-in-one/",
+  "homepage": "https://HyunhoYu.github.io/All-in-one/",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }

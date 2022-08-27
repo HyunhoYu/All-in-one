@@ -2,6 +2,7 @@ import "./Login.css";
 import { useEffect, useState } from "react";
 import Home from "./Home.js";
 import { Link, Route } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 function Login() {
   const [id, setId] = useState();
   const [pw, setPw] = useState();

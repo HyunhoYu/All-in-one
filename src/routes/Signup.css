@@ -62,7 +62,7 @@
 
 .input5 {
   border-radius: 30px;
-  width: 500px;                                                                                                                               
+  width: 500px;
   height: 45px;
   font-size: large;
   font-weight: bolder;
@@ -86,7 +86,4 @@
 
   border: none;
   border-radius: 4px;
-}
-
-.button2 {
 }
