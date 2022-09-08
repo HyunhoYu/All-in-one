@@ -2,6 +2,7 @@ import "./Signup.css";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Home from "./Home.js";
+import { Link } from "react-router-dom";
 
 function Signup() {
   const [name, setName] = useState("");
@@ -10,11 +11,8 @@ function Signup() {
   const [pw, setPw] = useState("");
   const [pw2, setPw2] = useState("");
 
-  const navigate = useNavigate();
-
-  const onNavigate = () => {
-    navigate("/All-in-one", { replace: false });
-  };
+ 
+const navigate = useNavigate();
 
   const onChangeName = (e) => {
     setName(e.target.value);
@@ -51,21 +49,15 @@ function Signup() {
         "name, email, id, pw",
         JSON.stringify([name, email, id, pw])
       );
-      onNavigate();
+      navigate("/", {replace:false});
     }
   };
 
   const onSubmit = () => {
-    if (pw !== pw2) {
-      alert("Pw do not match");
-    } else {
-      alert("Welcome!");
-      localStorage.setItem(
-        "name, email, id, pw",
-        JSON.stringify([name, email, id, pw])
-      );
-    }
+    onClick();
   };
+  
+
 
   return (
     <div>
@@ -122,7 +114,7 @@ function Signup() {
           </form>
         </div>
         <div>
-          <form>
+          <form onSubmit={onSubmit}>
             <button onClick={onClick} className="button">
               Sign Up!
             </button>
